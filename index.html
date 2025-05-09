@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FamPlay - Financial Education Games</title>
+    <meta name="description" content="Fun financial education games for young learners aged 11-20. Learn about money management, budgeting, and smart spending through interactive games.">
+    <meta name="keywords" content="financial education, money games, budgeting games, educational games, financial literacy">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="FamPlay - Financial Education Games">
+    <meta property="og:description" content="Fun financial education games for young learners aged 11-20. Learn about money management, budgeting, and smart spending through interactive games.">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="FamPlay - Financial Education Games">
+    <meta name="twitter:description" content="Fun financial education games for young learners aged 11-20. Learn about money management, budgeting, and smart spending through interactive games.">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/games.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- Components -->
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Tutorial.js"></script>
+    <script type="text/babel" src="components/GameWrapper.js"></script>
+    
+    <!-- Games -->
+    <script type="text/babel" src="games/CoinCatcher.js"></script>
+    <script type="text/babel" src="games/BudgetBuilder.js"></script>
+    <script type="text/babel" src="games/SaveOrSpend.js"></script>
+    <script type="text/babel" src="games/NeedsWantsSorter.js"></script>
+    <script type="text/babel" src="games/PriceIsRight.js"></script>
+    <script type="text/babel" src="games/MakeChange.js"></script>
+    
+    <!-- Utils -->
+    <script type="text/babel" src="utils/gameUtils.js"></script>
+    
+    <!-- Main App -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
